@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/120583. 중복된 숫자 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120804. 두 수의 곱" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120810. 나머지 구하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120814. 피자 나눠 먹기 （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120815. 피자 나눠 먹기 （2）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120819. 아이스 아메리카노" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120823. 직각삼각형 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120834. 외계행성의 나이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120837. 개미 군단" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120839. 가위 바위 보" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120844. 배열 회전시키기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120845. 주사위의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120849. 모음 제거" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120850. 문자열 정렬하기 （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120851. 숨어있는 숫자의 덧셈 （1）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120862. 최댓값 만들기 （2）" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120892. 암호 해독" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120893. 대문자와 소문자" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120895. 인덱스 바꾸기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120899. 가장 큰 수 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120905. n의 배수 고르기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120908. 문자열안에 문자열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120909. 제곱수 판별하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/120910. 세균 증식" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

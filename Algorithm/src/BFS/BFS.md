@@ -8,6 +8,8 @@
 - BFS 구현해 보기
   - 아래 예시에 대한 구현
   - <img src="BFSImage.png">
+  - Visited와 NeedVisit 두 개의 Queue를 이용해 구현
+  - Queue의 특성상, 왼쪽 Node들부터 first-in, first-out으로 나오게 된다.
 ```java
 public class BFSSearch {
   public static void main(String[] args) {

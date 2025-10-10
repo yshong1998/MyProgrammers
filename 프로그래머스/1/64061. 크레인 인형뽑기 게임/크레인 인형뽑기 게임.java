@@ -1,38 +1,30 @@
 import java.util.*;
-
 class Solution {
     public int solution(int[][] board, int[] moves) {
-        Stack<Integer> st = new Stack<>();
         int answer = 0;
-        
-        int n = board.length;
-        
-        int[] ch = new int[n];
-        for(int i = 0; i < n; i++)  ch[i] = -1;
-        
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                if(board[j][i] != 0){
-                    ch[i] = j;
-                    break;
+        Deque<Integer> stack = new ArrayDeque<>();
+        for (int i = 0; i < moves.length; i++) {
+            int doll = 0;
+            int r = 0;
+            while(doll == 0 && r < board.length){
+                doll = board[r++][moves[i] - 1];
+            }
+            if(doll == 0 && r == board.length){
+                continue;
+            }
+            board[r - 1][moves[i] - 1] = 0;
+            if(stack.isEmpty()){
+                stack.push(doll);
+            } else {
+                if(stack.peek() == doll){
+                    stack.pop();
+                    answer+=2;
+                } else {
+                    stack.push(doll);
                 }
             }
         }
-        
-        for(int m : moves){
-            m -= 1;
-            int x = 0;
-            if(ch[m] != -1 && ch[m] < n){
-                x = board[ch[m]][m];
-                ch[m] += 1;
-            } else  continue;
-            
-            if(!st.isEmpty() && st.peek() == x){
-                st.pop();
-                answer += 2;
-            }
-            else    st.push(x);
-        }
+        System.out.println(answer);
         return answer;
     }
 }
